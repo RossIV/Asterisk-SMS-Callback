@@ -1,0 +1,17 @@
+{
+  "name": "rossiv/asterisk-sms-callback",
+  "description": "Asterisk SMS Callback",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ross Lindsay",
+      "email": "ross@rosslindsay.com"
+    }
+  ],
+  "require": {
+    "twilio/sdk": "5.2.x-dev",
+    "ext-curl": "*",
+    "ext-soap": "*"
+  }
+}
